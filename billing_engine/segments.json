@@ -1,0 +1,135 @@
+{
+  "billing_month": "2026-09",
+  "days_in_month": 30,
+  "customers": [
+    {
+      "customer_id": "C001",
+      "segments": [
+        {
+          "plan_code": "BASIC",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-30",
+          "days": 30,
+          "segment1_fee": "499.00",
+          "segment2_fee": "0.00"
+        }
+      ],
+      "active_days": 30,
+      "total_fee": "499.00"
+    },
+    {
+      "customer_id": "C002",
+      "segments": [
+        {
+          "plan_code": "PRO",
+          "start_date": "2026-09-16",
+          "end_date": "2026-09-30",
+          "days": 15,
+          "segment1_fee": "749.50",
+          "segment2_fee": "0.00"
+        }
+      ],
+      "active_days": 15,
+      "total_fee": "749.50"
+    },
+    {
+      "customer_id": "C003",
+      "segments": [
+        {
+          "plan_code": "BASIC",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-10",
+          "days": 10,
+          "segment1_fee": "166.33",
+          "segment2_fee": "999.33"
+        },
+        {
+          "plan_code": "PRO",
+          "start_date": "2026-09-11",
+          "end_date": "2026-09-30",
+          "days": 20,
+          "segment1_fee": "166.33",
+          "segment2_fee": "999.33"
+        }
+      ],
+      "active_days": 30,
+      "total_fee": "2331.32"
+    },
+    {
+      "customer_id": "C004",
+      "segments": [
+        {
+          "plan_code": "SCALE",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-20",
+          "days": 20,
+          "segment1_fee": "2666.00",
+          "segment2_fee": "166.33"
+        },
+        {
+          "plan_code": "BASIC",
+          "start_date": "2026-09-21",
+          "end_date": "2026-09-30",
+          "days": 10,
+          "segment1_fee": "2666.00",
+          "segment2_fee": "166.33"
+        }
+      ],
+      "active_days": 30,
+      "total_fee": "5664.66"
+    },
+    {
+      "customer_id": "C005",
+      "segments": [
+        {
+          "plan_code": "PRO",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-14",
+          "days": 14,
+          "segment1_fee": "699.53",
+          "segment2_fee": "0.00"
+        }
+      ],
+      "active_days": 14,
+      "total_fee": "699.53"
+    },
+    {
+      "customer_id": "C006",
+      "segments": [
+        {
+          "plan_code": "BASIC",
+          "start_date": "2026-09-05",
+          "end_date": "2026-09-21",
+          "days": 17,
+          "segment1_fee": "282.77",
+          "segment2_fee": "0.00"
+        }
+      ],
+      "active_days": 17,
+      "total_fee": "282.77"
+    }
+  ],
+  "summary": {
+    "customer_count": 6,
+    "segment_count": 8,
+    "customers_without_segments": 1,
+    "total_fee": "7895.46"
+  },
+  "plan_totals": [
+    {
+      "plan_code": "BASIC",
+      "segment_count": 4,
+      "total_fee": "499.00"
+    },
+    {
+      "plan_code": "PRO",
+      "segment_count": 3,
+      "total_fee": "749.50"
+    },
+    {
+      "plan_code": "SCALE",
+      "segment_count": 1,
+      "total_fee": "2832.33"
+    }
+  ]
+}
