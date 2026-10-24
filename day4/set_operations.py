@@ -1,0 +1,5 @@
+s1=set(map(int,input().split()))
+s2=set(map(int,input().split()))
+print("Union:",s1.union(s2))
+print("Intersection:",s1.intersection(s2))
+print("Difference:",s1.difference(s2))
