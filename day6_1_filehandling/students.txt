@@ -1,6 +1,0 @@
-The 5 Student names are:
-john
-ravi
-rahul
-keerthi
-sujana
