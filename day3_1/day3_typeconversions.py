@@ -1,9 +1,0 @@
-x=int("25")
-y=4.5
-z=10
-print(x+z)
-print(type(x+z))
-print(x*z)
-print(type(x*z))
-print(y+z)
-print(type(y+z))

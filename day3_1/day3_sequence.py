@@ -1,9 +1,0 @@
-num=int(input())
-sum=num+10
-print(sum)
-mul=sum*2
-print(mul)
-sub=mul-5
-print(sub)
-division=sub/3
-print(division)
